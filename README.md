@@ -10,3 +10,8 @@ This project supports:
 Usage:
 - For the single-file script, run the script and enter the `.dat` file path when prompted.
 - For the folder-based scripts, run the script and enter the folder path when prompted.
+
+After processing:
+- In single-file mode, the converted image is saved in the same folder as the source `.dat` file.
+- In one-folder batch mode, the converted images are saved in a new subfolder under the selected folder.
+- In recursive batch mode, the converted images are saved in a new subfolder under each subfolder that contains `.dat` files.
